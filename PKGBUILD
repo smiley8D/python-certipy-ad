@@ -1,6 +1,6 @@
 # Maintainer: smiley <smiley@smiley.aleeas.com>
 _pkgbase=Certipy-5.0.3
-pkgname=python-certipy-ad-git
+pkgname=python-certipy-ad
 pkgver=certipy-ad_5_0_3
 pkgrel=1
 pkgdesc="Tool for Active Directory Certificate Services enumeration and abuse"
