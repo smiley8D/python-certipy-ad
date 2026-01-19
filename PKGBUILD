@@ -1,7 +1,7 @@
 # Maintainer: smiley <smiley@smiley.aleeas.com>
-_pkgbase=Certipy-5.0.3
+_pkgbase=Certipy-5.0.4
 pkgname=python-certipy-ad
-pkgver=certipy-ad_5_0_3
+pkgver=certipy-ad_5_0_4
 pkgrel=1
 pkgdesc="Tool for Active Directory Certificate Services enumeration and abuse"
 arch=('any')
@@ -29,10 +29,10 @@ makedepends=(
     python-installer
     python-wheel
 )
-source=("https://github.com/ly4k/Certipy/archive/refs/tags/5.0.3.tar.gz")
-sha256sums=('beb5967d4fff4aeaac7e0e46c7cfd09ce1e816d407a6981fdde923b050cd5ab7')
+source=("https://github.com/ly4k/Certipy/archive/refs/tags/5.0.4.tar.gz")
+sha256sums=('7b1c0dc5a9b285bf5cd4b412c1515329f91122f47d16d711018dd44998409347')
 
-pkgver=5.0.3
+pkgver=5.0.4
 
 build() {
     cd "${srcdir}/${_pkgbase}"
